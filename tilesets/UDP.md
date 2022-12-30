@@ -7,6 +7,8 @@
 このページの `[Code]->[Download ZIP]` からダウンロードする。
 
 ## ファイルの配置
+![tile to game](https://raw.githubusercontent.com/tlshtivo053153/cdda-install-guide-jp/images/tileToGame.png)
+
 ダウンロードしたタイルセットの `TILESETS/gfx/MSX++UnDeadPeopleEdition` フォルダをコピーし、
 ゲーム本体側の `gfx` フォルダの中にペーストする。
 次に、タイルセットの `TILESETS/data` フォルダをコピーして、ゲーム本体側のフォルダ内にペーストする。
