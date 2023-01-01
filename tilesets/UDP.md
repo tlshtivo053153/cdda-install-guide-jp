@@ -3,7 +3,7 @@
 
 ## ダウンロード
 タイルセットを公開しているWebページに移動
-(https://github.com/Theawesomeboophis/UndeadPeopleTileset)。
+([UndeadPeopleTileset](https://github.com/Theawesomeboophis/UndeadPeopleTileset))。
 このページの `[Code]->[Download ZIP]` からダウンロードする。
 
 ## ファイルの配置

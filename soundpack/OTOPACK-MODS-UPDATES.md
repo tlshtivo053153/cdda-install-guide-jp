@@ -2,7 +2,7 @@
 
 ## ダウンロード
 サウンドパックを公開しているWebページに移動
-(https://github.com/Kenan2000/Otopack-Mods-Updates)。
+([Otopack-Mods-Updates](https://github.com/Kenan2000/Otopack-Mods-Updates))。
 このページの `[Code]->[Download ZIP]` からダウンロードする。
 
 ## ファイルの配置
