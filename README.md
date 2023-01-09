@@ -104,7 +104,7 @@ Tilesはグラフィックのあるバージョンである。
 * 初期設定: UltiCa
 * 選択肢: ASCIITiles, AltiCa, BrownLikeBears, Chibi_Ultica,
 Cuteclysm, Hollow Moon, Larwick Overmap, MSXotto+, NeoDays, RetroDays,
-SmashButton iso, SurveyorsMap, Ultica_iso, UltiCa"
+SmashButton iso, SurveyorsMap, Ultica_iso, UltiCa
 
 #### 全体マップタイル表示
 `True` に変更すると、全体マップをタイル表示できる。
