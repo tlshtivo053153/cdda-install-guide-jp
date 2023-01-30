@@ -145,3 +145,9 @@ SmashButton iso, SurveyorsMap, Ultica_iso, UltiCa
 * 値範囲:
     * 最小: `14`
     * 最大: `127`
+
+## フォント設定
+フォントの設定ファイルは `config/fonts.json` にある｡
+外部フォントも利用可能。
+
+* [フォント設定](fonts/CONFIG.md)
