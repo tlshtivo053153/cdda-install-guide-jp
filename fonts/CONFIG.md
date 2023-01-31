@@ -107,3 +107,18 @@
     * 全角スペースが可視化
 * [Mgen+](http://jikasei.me/font/mgenplus/)
     * JIS第1〜4水準すべてを含む
+
+#### 上記のRicty Diminished と Mgen+ を使った例
+フォントを `font/RictyDiminished-Bold.ttf`, `font/mgenplus-1m-bold.ttf`
+に配置した設定ファイルの例。
+プログラミング向けフォントの `Ricty Diminished` は、対応していない漢字
+があるかもしれない。
+そのため、対応している漢字の多い `Mgen+` と併用する。
+
+```json
+{
+  "typeface": [ "font/RictyDiminished-Bold.ttf", "font/mgenplus-1m-bold.ttf" ],
+  "map_typeface": [ "font/RictyDiminished-Bold.ttf", "font/mgenplus-1m-bold.ttf" ],
+  "overmap_typeface": [ "font/RictyDiminished-Bold.ttf", "font/mgenplus-1m-bold.ttf" ]
+}
+```
