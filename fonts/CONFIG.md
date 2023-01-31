@@ -5,7 +5,7 @@
 フォントの設定を反映するためには、ゲームの再起動が必要なので注意。
 
 ### フォント/表示調整
-"True" にするとアンチエイリアスという処理によって、文字のギザギザをなめらかにする。
+'True' にするとアンチエイリアスという処理によって、文字のギザギザをなめらかにする。
 フォントのサイズを大きくする場合は `True` にすると良い。
 
 ### フォント/横幅, 縦幅, サイズ
@@ -82,9 +82,9 @@
 
 ```json
 {
-  "typeface": [ "font/日本語1.ttf", "font/日本語2.ttf", "font/日本語.ttf" ],
-  "map_typeface": [ "font/日本語1.ttf", "font/日本語2.ttf", "font/日本語.ttf" ],
-  "overmap_typeface": [ "font/日本語1.ttf", "font/日本語2.ttf", "font/日本語.ttf" ]
+  "typeface": [ "font/日本語1.ttf", "font/日本語2.ttf", "font/日本語3.ttf" ],
+  "map_typeface": [ "font/日本語1.ttf", "font/日本語2.ttf", "font/日本語3.ttf" ],
+  "overmap_typeface": [ "font/日本語1.ttf", "font/日本語2.ttf", "font/日本語3.ttf" ]
 }
 ```
 
