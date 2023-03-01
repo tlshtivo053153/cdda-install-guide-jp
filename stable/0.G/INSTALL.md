@@ -96,3 +96,11 @@ MODリストのタブ切り替えは `<` キー、
 ## チュートリアル
 チュートリアルでは、ゲームの基本的な操作方法を学べる。
 `[タイトル画面]->[特殊]->[チュートリアル]` から開始できる。
+
+## 有用な外部リンク
+
+* [Cataclysm:DDA 日本語Wiki](https://w.atwiki.jp/cataclyj/)
+    * 有用な情報もあるが、古い記述もあることに注意
+    * [0.gリリースに向けた初心者のための序盤攻略ガイド](https://w.atwiki.jp/cataclyj/pages/281.html)
+* [Hitchhiker's Guide to the Cataclysm](https://nornagon.github.io/cdda-guide/?lang=ja)
+    * Webブラウザからゲーム内の情報(アイテムやモンスター)を取得できる

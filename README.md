@@ -152,3 +152,13 @@ SmashButton iso, SurveyorsMap, Ultica_iso, UltiCa
 外部フォントも利用可能。
 
 * [フォント設定](fonts/CONFIG.md)
+
+## 外部リンク
+
+* [Cataclysm:DDA 日本語Wiki](https://w.atwiki.jp/cataclyj/)
+* [Hitchhiker's Guide to the Cataclysm](https://nornagon.github.io/cdda-guide/)
+* [公式Webページ(英語)](https://cataclysmdda.org/)
+* [フォーラム(英語)](https://discourse.cataclysmdda.org/)
+* [英語wiki](http://cddawiki.chezzo.com/cdda_wiki/index.php/Main_Page)
+* [Githubリポジトリ](https://github.com/CleverRaven/Cataclysm-DDA)
+* [英語公式Discord](https://discord.gg/jFEc7Yp)
