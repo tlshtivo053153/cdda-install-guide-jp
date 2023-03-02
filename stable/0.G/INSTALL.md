@@ -102,5 +102,5 @@ MODリストのタブ切り替えは `<` キー、
 * [Cataclysm:DDA 日本語Wiki](https://w.atwiki.jp/cataclyj/)
     * 有用な情報もあるが、古い記述もあることに注意
     * [0.gリリースに向けた初心者のための序盤攻略ガイド](https://w.atwiki.jp/cataclyj/pages/281.html)
-* [Hitchhiker's Guide to the Cataclysm](https://nornagon.github.io/cdda-guide/?lang=ja)
+* [Hitchhiker's Guide to the Cataclysm](https://nornagon.github.io/cdda-guide/?lang=ja&v=0.G)
     * Webブラウザからゲーム内の情報(アイテムやモンスター)を取得できる
