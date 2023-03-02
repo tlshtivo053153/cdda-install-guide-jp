@@ -19,6 +19,9 @@
 
 ### 横幅, 縦幅, サイズ
 導入したフォントによっては文字切れが発生して見にくくなる。
+
+![string example](https://raw.githubusercontent.com/tlshtivo053153/cdda-install-guide-jp/images/stringExample.png)
+
 文字切れが発生している場合は、フォントの横幅や縦幅の値を大きくする。
 フォントの横幅・縦幅を適切な値に設定したら、サイズを見やすい大きさに変更する。
 横幅・縦幅・サイズの比があまり変わらないように変更するときれいになる。
