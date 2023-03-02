@@ -153,6 +153,22 @@ SmashButton iso, SurveyorsMap, Ultica_iso, UltiCa
 
 * [フォント設定](fonts/CONFIG.md)
 
+## 色設定
+`タイトル画面 -> 設定 -> 文字色` から色設定を変更できる。
+
+`c` キーの色テーマ読込では、色のRGB値を変更できるテーマを選べる。
+
+`t` キーの読込/テンプレートでは、色の割り当てを変更できる
+(c_black_cyan など)。
+ただし、デフォルトでは `default.json` しかない。
+背景色と文字色の組み合わせで見づらいものがあるとき変更する。
+
+RGB値を自分で変更するためにはテキストエディタで
+`config/base_colors.json` を編集する。
+または外部の色設定を導入する。
+
+* [Cataclysm:DDA 色設定](https://github.com/tlshtivo053153/cdda-color-config-jp)
+
 ## 外部リンク
 
 * [Cataclysm:DDA 日本語Wiki](https://w.atwiki.jp/cataclyj/)
