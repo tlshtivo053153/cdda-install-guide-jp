@@ -56,6 +56,13 @@ Tilesはグラフィックのあるバージョンである。
 
 * [Otopack-Mods-Updates](soundpack/OTOPACK-MODS-UPDATES.md)
 
+### 外部MOD
+外部MODは、ゲームの実行ファイルのあるフォルダで
+`data/mods` または `mods` にコピーする。
+翻訳ファイルを含むMODは `mods` にコピーする
+(`mods` がなければ作る)。
+`data/mods` にコピーした場合は翻訳されない。
+
 ## オプション
 ゲームオプションの変更は `[タイトル画面]->[設定]->[オプション]` から行う。
 必要最低限の変更をする。
