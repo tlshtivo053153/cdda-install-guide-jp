@@ -41,6 +41,7 @@ Tilesはグラフィックのあるバージョンである。
 
 ### ゲーム本体
 
+* [安定版0.H](stable/0.H/INSTALL.md)
 * [安定版0.G](stable/0.G/INSTALL.md)
 * [開発版](experimental/INSTALL.md)
 
