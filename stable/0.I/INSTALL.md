@@ -2,7 +2,7 @@
 安定版0.Iのインストールから、世界生成、キャラメイクまで説明する。
 
 ## ダウンロード
-[GitHubのリリース](https://cataclysmdda.org/releases/)
+[GitHubのリリース](https://github.com/CleverRaven/Cataclysm-DDA/releases?q=prerelease%3Afalse&expanded=true)
 に移動する。
 スクロールしてダウンロードリンクを見つける。
 
