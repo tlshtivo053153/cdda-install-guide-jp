@@ -29,6 +29,9 @@ CPUの性能が高いと、ゲームの1ターンの処理が早く終わる。
 かかる場合などに影響する。
 また、NPCやモンスターが多くいる場所では、CPUの負荷が大きくなる。
 
+### GPU
+2Dゲームなのでオンボードグラフィックで問題ない。
+
 ## インストール
 このゲームには、安定版(Stable)と開発版(Experimental)がある。
 安定版は、バグが少ないが開発版より古い。
@@ -38,12 +41,13 @@ Curses版とTiles版の2種類あるが、
 Cursesはコマンドライン環境の文字ベースのバージョンで、
 Tilesはグラフィックのあるバージョンである。
 よほどのことがなければTilesを推奨する。
+Curses版を使用しても、ほとんどCPUの負荷は変わらない。
 
 ### ゲーム本体
 
 * [安定版0.H](stable/0.H/INSTALL.md)
 * [安定版0.G](stable/0.G/INSTALL.md)
-* [安定版0.I](stable/0.I/INSTALL.md)
+* [安定版0.I-1](stable/0.I-1/INSTALL.md)
 * [開発版](experimental/INSTALL.md)
 
 ### タイルセット
@@ -111,16 +115,19 @@ Tilesはグラフィックのあるバージョンである。
 #### タイルセット選択
 外部のタイルセットを導入した場合、ここから選択できる。
 
+##### 安定版 0.I-1
 * 初期設定: UltiCa
-* 選択肢: ASCIITiles, AltiCa, BrownLikeBears, Chibi_Ultica,
-Cuteclysm, Hollow Moon, Larwick Overmap, MSXotto+, NeoDays, RetroDays,
-SmashButton iso, SurveyorsMap, Ultica_iso, UltiCa
+* 選択肢: ASCIITiles, ASCII Overmap, AltiCa, BrownLikeBears, Chibi_Ultica,
+Cuteclysm, GiantDays, Hollow Moon, Larwick Overmap, MSXotto+, NeoDays,
+Pen & Paper Overmap, RetroDays, SmashButton iso, SurveyorsMap, Ultica_iso, UltiCa
 
 #### 全体マップタイル表示
 `True` に変更すると、全体マップをタイル表示できる。
 タイルセットの種類は `全体マップタイルセット選択` から変更する。
 
-* 初期設定: `False`
+* 初期設定:
+    * 0.H以前: `False`
+    * 0.I-1以後: `True`
 * 選択肢: `False`, `True`
 
 ### 世界生成
@@ -131,8 +138,8 @@ SmashButton iso, SurveyorsMap, Ultica_iso, UltiCa
 ただし、オプションの変更によってエラーが発生する可能性がある。
 
 `0.H` までは、大変動開始日や季節の長さのオプションが存在するが、
-`0.I` からは、このオプションは存在しなくなった。
-`0.I` からは、大変動開始日はキャラメイク時の設定に変更になり、
+`0.I-1` からは、このオプションは存在しなくなった。
+`0.I-1` からは、大変動開始日はキャラメイク時の設定に変更になり、
 季節の長さは91日に固定化されて変更不能になった。
 
 #### 大変動開始日
@@ -162,10 +169,11 @@ SmashButton iso, SurveyorsMap, Ultica_iso, UltiCa
     * 最大: `127`
 
 ## フォント設定
-フォントの設定ファイルは `config/fonts.json` にある｡
+フォントの設定ファイルは `config/fonts.json` にある。
 外部フォントも利用可能。
 
-* [フォント設定](fonts/CONFIG.md)
+* [フォント設定(0.H以前)](fonts/CONFIG.md)
+* [フォント設定(0.I-1以後)](fonts/CONFIG_0I.md)
 
 ## 色設定
 `タイトル画面 -> 設定 -> 文字色` から色設定を変更できる。

@@ -1,4 +1,4 @@
-# フォント設定
+# フォント設定(0.H以前)
 
 ## ゲームオプション
 `[タイトル画面]->[設定]->[オプション]->[表示]` からフォントのサイズなどを変更できる。
@@ -17,7 +17,7 @@
 ### 全体マップフォント/横幅, 縦幅, サイズ
 全体マップのフォント設定。
 
-### 横幅, 縦幅, サイズ
+### 文字切れが発生する場合
 導入したフォントによっては文字切れが発生して見にくくなる。
 
 ![string example](https://raw.githubusercontent.com/tlshtivo053153/cdda-install-guide-jp/images/stringExample.png)
@@ -28,7 +28,7 @@
 例えば、元々の値が 8,19,16 の場合は 10,24,20 や 12,29,24 などとする。
 
 ## `config/fonts.json`
-フォントの設定ファイルは `config/fonts.json` にある｡
+フォントの設定ファイルは `config/fonts.json` にある。
 以下が、デフォルトの設定である。
 
 ```json
@@ -47,7 +47,7 @@
 * `unifont.ttf` は日本語や全角記号を含んだフォントファイル
 
 各設定の `[]` で囲まれたフォントの優先順位は、先に書いてあるものが高い。
-具体例を上げて説明する。
+具体例を挙げて説明する。
 文字 `a` をゲーム内で表示するときは、先に書いてある `"Terminus.ttf"` を使用する。
 一方、文字 `あ` を表示するときは、`"Terminus.ttf"` に文字 `あ` がないので
 `"unifont.ttf"` を使用する。
@@ -108,7 +108,7 @@
 * [Ricty Diminished](https://github.com/edihbrandon/RictyDiminished)
     * プログラミング向けフォント
     * 全角スペースが可視化
-* [Mgen+](http://jikasei.me/font/mgenplus/)
+* [Mgen+](https://jikasei.me/font/mgenplus/)
     * JIS第1〜4水準すべてを含む
 
 #### 上記のRicty Diminished と Mgen+ を使った例

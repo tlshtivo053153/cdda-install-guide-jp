@@ -1,17 +1,21 @@
 # Undead People
 多くの外部MODに対応しているタイルセット。
 
+[Theawesomeboophis/UndeadPeopleTileset](https://github.com/Theawesomeboophis/UndeadPeopleTileset)
+にあるタイルセットは非公開になっています。
+代わりに、[Goodgulf-PL/UndeadPeopleTileset_Unpacked_New_Version](https://github.com/Goodgulf-PL/UndeadPeopleTileset_Unpacked_New_Version)
+を利用できます。
+
 ## ダウンロード
 タイルセットを公開しているWebページに移動
-([UndeadPeopleTileset](https://github.com/Theawesomeboophis/UndeadPeopleTileset))。
-このページの `[Code]->[Download ZIP]` からダウンロードする。
+([UndeadPeopleTileset](https://github.com/Goodgulf-PL/UndeadPeopleTileset_Unpacked_New_Version))。
+このページのReleasesを開いて、最新の `MSX++UnDeadPeopleEdition_v2.zip` をダウンロードする。
 
 ## ファイルの配置
-![tile to game](https://raw.githubusercontent.com/tlshtivo053153/cdda-install-guide-jp/images/tileToGame.png)
 
-ダウンロードしたタイルセットの `TILESETS/gfx/MSX++UnDeadPeopleEdition` フォルダをコピーし、
+ダウンロードしたタイルセットの `MSX++UnDeadPeopleEdition_v2` フォルダをコピーし、
 ゲーム本体側の `gfx` フォルダの中にペーストする。
-次に、タイルセットの `TILESETS/data` フォルダをコピーして、ゲーム本体側のフォルダ内にペーストする。
 これでゲームを起動したときに
 `[設定]->[オプション]->[表示]->[タイルセット選択]`
-から `UNDEAD_PEOPLE (NEW VERSION)` を選ぶことができる。
+から `UndeadPeople v2` を選ぶことができる。
+
